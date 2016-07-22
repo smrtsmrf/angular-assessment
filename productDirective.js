@@ -7,7 +7,7 @@
 
 	function productDirective() {
 		return{
-			restrict: 'E',
+			restrict: 'AE',
 			scope: {
 				product : '='
 			},
