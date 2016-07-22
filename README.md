@@ -2,19 +2,20 @@
 
 
 ``1``
- Create a basic angular app that includes a mainCtrl,mainService,app.js and routes.js The index.html file is included in this repo so you dont need to add one.
+ <!-- Create a basic angular app that includes a mainCtrl,mainService,app.js and routes.js The index.html file is included in this repo so you dont need to add one. -->
 
 ``2``
- Setup your router, states, and ui-view so that the home.html loads first. Also set up the routes for the about.html, blog.html and shop.html.
+ <!-- Setup your router, states, and ui-view so that the home.html loads first. Also set up the routes for the about.html, blog.html and shop.html. -->
 
 ``3``
- Connect the navigation links that are located in the index.html to point to the corresponding page.
+ <!-- Connect the navigation links that are located in the index.html to point to the corresponding page. -->
 
 ``4``
- After you have your routing setup you can start working on getting the data you'll need.
- For the shop.html view you're going to need to make an api call to http://practiceapi.devmounta.in/products to get all the products.
+ <!-- After you have your routing setup you can start working on getting the data you'll need. -->
+ <!-- For the shop.html view you're going to need to make an api call to http://practiceapi.devmounta.in/products to get all the products. -->
  
  ``5``
+
  Product needs to be a directive.  The template is provided for you in product-tmpl.html.
  It needs to have an isolate scope and take in the product and show the details.
  Clicking on the title will navigate to product details.
@@ -32,10 +33,10 @@
  The link that points to the product detail will need to pass along the id of the item being clicked using an ui-sref.
 
 ``8``
-Product-details.html will be the hardest view to get working. You'll need to check the state params for the id being passed along in the route.
-After you have that id you'll need to make an api call to http://practiceapi.devmounta.in/products/ + the id being passed in the route.
-This will return the specific item based off the id you passed.
-Put that item on $scope and display in the view.
+<!-- Product-details.html will be the hardest view to get working. You'll need to check the state params for the id being passed along in the route. -->
+<!-- After you have that id you'll need to make an api call to http://practiceapi.devmounta.in/products/ + the id being passed in the route. -->
+<!-- This will return the specific item based off the id you passed. -->
+<!-- Put that item on $scope and display in the view. -->
 
 ``9``
 Host your solution on github pages.
